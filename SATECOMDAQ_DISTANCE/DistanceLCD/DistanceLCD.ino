@@ -268,7 +268,7 @@ void calculate()
     else break;
 
     total/=slpt;
-    total+=4.4;
+    total+=6.7;
     
 //    Serial.println("request ");
 //    Serial.println(request);
@@ -276,8 +276,8 @@ void calculate()
 //    Serial.println(mistotal);
 //    Serial.println("slpt ");
     //Serial.println(slpt);
-    if (abs(mistotal-total) > (request))
-    {
+    //if (abs(mistotal-total) > (request))
+    //{
       request=total/100;
       mistotal=total;
       
@@ -296,7 +296,7 @@ void calculate()
        
       
       //Serial.println(total);
-    }    
+    //}    
     Serial.println(transData1);
     
     if (mySerial.available ()>0) {
