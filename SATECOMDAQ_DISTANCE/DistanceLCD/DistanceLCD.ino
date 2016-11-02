@@ -268,8 +268,12 @@ void calculate()
     else break;
 
     total/=slpt;
-    total+=6.7;
-    
+    total+=5.3;
+    //if (total>=10.2) total-=0.2;
+//    //if (total>14.0) total-=0.2;
+//     if (total>38.0) total-=0.2;
+//      if (total>40.0) total-=0.2;
+      
 //    Serial.println("request ");
 //    Serial.println(request);
 //    Serial.println("mistotal ");

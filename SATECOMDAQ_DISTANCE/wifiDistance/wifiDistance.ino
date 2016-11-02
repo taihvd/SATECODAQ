@@ -15,12 +15,18 @@ extern "C" {
 const char* ssid     = "SATECODAQ";
 const char* password = "dfm1610!";
 
+//const char* ssid     = "dfm";
+//const char* password = "minhvuong2010";
+
+
 SoftwareSerial mySerial(D2,D3);
 
-const uint16_t port = 16103;
-//const uint16_t port = 6096;
-//const char * host = "192.168.20.179"; // ip or dns
+const uint16_t port = 6096;
+const char * host = "192.168.20.172"; // ip or dns
+
 const char * host = "192.168.1.1";
+const uint16_t port = 16103;
+
 const long long interval=8000;
 unsigned long previousMillis=0;
 
